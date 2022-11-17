@@ -561,7 +561,7 @@ const Home = (props: HomeProps) => {
                 if (status && !status.err && metadataStatus) {
                     setAlertState({
                         open: true,
-                        message: 'Congratulations! Mint succeeded!',
+                        message: 'Congratulations (hashima) ! Mint succeeded!',
                         severity: 'success',
                     });
 

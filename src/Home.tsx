@@ -650,12 +650,12 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>OnWeb3 NFTs: Utility & TokenGate Membership Tokens</h2>
+                            <h2>My NFT</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
                                 src="cool-cats.gif"
-                                alt="EcoSysMAAT project summary"/></div>
+                                alt="NFT To Mint"/></div>
                             <br/>
                             {wallet && isActive && whitelistEnabled && (whitelistTokenBalance > 0) && isBurnToken &&
                               <h3>You own {whitelistTokenBalance} WL
@@ -700,7 +700,7 @@ const Home = (props: HomeProps) => {
                                                 //@ts-ignore
                                                 signTransaction: wallet.signTransaction,
                                                 }}
-                                                gatekeeperNetwNFT To Mintork={
+                                                gatekeeperNetwork={
                                                 candyMachine?.state?.gatekeeper?.gatekeeperNetwork
                                                 }
                                                 clusterUrl={rpcUrl}

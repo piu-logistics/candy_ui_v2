@@ -650,8 +650,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>NFT4VC OnWeb3</h2>
-                            <h3>NFTs: Utility & TokenGate Membership Tokens</h3>
+                            <h2>OnWeb3 NFTs: Utility & TokenGate Membership Tokens</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
